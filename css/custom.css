@@ -1,0 +1,17 @@
+h1 {
+    color:green;
+    margin-top:22px;
+}
+
+h1, h2, p {
+    font-family: 'Bitter', serif;
+}
+
+body, .accordion-item, .accordion-button, .accordion-button:not(.collapsed){
+    background-color: rgb(250, 237, 212);
+}
+
+.accordion-button:focus{
+    border-color: none;
+    box-shadow: none;
+}
