@@ -7,7 +7,7 @@ h1, h2, h3 {
     font-family: 'Bitter', serif;
 }
 
-p {
+p, ul {
     font-family: 'Bitter', serif;
 }
 
@@ -20,6 +20,6 @@ body, .accordion-item, .accordion-button, .accordion-button:not(.collapsed){
     box-shadow: none;
 }
 
-.accordion-button:not(.collapsed), .accordion-button{
+.accordion-button:not(.collapsed), .accordion-button, a{
     color:purple;
 }
