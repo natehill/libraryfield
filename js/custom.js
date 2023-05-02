@@ -5,7 +5,7 @@ let branchLength = 3;
 
 function setup() {
 let div = createDiv('').class('container');
-div.html('<div class="row"><div class="col-md-8 mx-auto"><h3>test!</h3></div></div>');
+//div.html('<div class="row"><div class="col-md-8 mx-auto"><h3></h3></div></div>');
 let cnv = createCanvas(windowWidth, windowHeight);
 cnv.id("algae");
 
