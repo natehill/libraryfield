@@ -2,6 +2,7 @@ let windAngle
 let angle = Math.PI / 9
 let turtleString = "aF";  //axiom
 let branchLength = 3;
+let paused = false;
 
 function setup() {
 let div = createDiv('').class('container');
@@ -48,9 +49,14 @@ function draw(){
   windAngle = cos(frameCount * 0.01) * 0.02
   biasAngle = 0.03
   renderString(turtleString);
+  if (paused) {
+  	frameCount = 0;
+  }
 }
 
-
+function mousePressed() {
+  paused = !paused;
+}
 
 function renderString(string) {
   for (let character of string) {
