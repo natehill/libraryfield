@@ -6,7 +6,7 @@ let paused = false;
 
 function setup() {
 let div = createDiv('').class('container');
-//div.html('<div class="row"><div class="col-md-8 mx-auto"><h3></h3></div></div>');
+div.html('<div class="row"><div class="col-md-8 mx-auto"><p>L-system code by <a href="http://paulbourke.net/fractals/lsys/" target+"blank">Paul Bourke</a><p></div></div>');
 let cnv = createCanvas(windowWidth, windowHeight);
 cnv.id("algae");
 
