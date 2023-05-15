@@ -23,3 +23,17 @@ body, .accordion-item, .accordion-button, .accordion-button:not(.collapsed){
 .accordion-button:not(.collapsed), .accordion-button, a{
     color:purple;
 }
+
+#hello-container{
+    position: absolute;
+    border-radius: 12px;
+    display: block;
+    background-color: rgba(66, 1, 112, .7);
+    min-width:300px;
+    min-height: 400px;
+    height: auto;
+    padding: 16px;
+    top:40px;
+    left:40px;
+    z-index: 2;
+   }
